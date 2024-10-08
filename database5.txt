@@ -1,0 +1,22 @@
+Based on Data Model
+Relational Database: Data is organized in tables (relations) consisting of rows and columns. Each table has a unique key, and relationships between tables are established using foreign keys (e.g., MySQL, PostgreSQL).
+NoSQL Database: Designed for unstructured or semi-structured data, NoSQL databases do not rely on fixed schemas and can store data in various formats such as key-value pairs, documents, or graphs (e.g., MongoDB, Cassandra).
+Hierarchical Database: Data is organized in a tree-like structure with parent-child relationships. Each parent can have multiple children, but each child has only one parent (e.g., IBM Information Management System).
+Network Database: Similar to hierarchical databases but allows more complex relationships with multiple parent-child relationships, represented as a graph structure (e.g., Integrated Data Store).
+Object-oriented Database: Stores data in the form of objects, similar to object-oriented programming. Objects can encapsulate both data and behaviors (e.g., ObjectDB).
+2. Based on Usage
+Operational Database: Used for daily operations of an organization, focusing on real-time data processing and transactions (e.g., Online Transaction Processing (OLTP) systems).
+Analytical Database: Designed for analyzing large volumes of data, often used in decision support systems and business intelligence (e.g., Online Analytical Processing (OLAP) systems).
+Distributed Database: Data is stored across multiple locations or servers, which may be connected through a network. It enhances performance and redundancy (e.g., Google Spanner).
+3. Based on Data Storage
+Flat File Database: Stores data in a single file, typically as a plain text or CSV file. There is no structured organization, making it simple but limited in functionality.
+Multidimensional Database: Data is organized in multiple dimensions, allowing for complex data analysis and reporting. This type is commonly used in data warehousing (e.g., OLAP cubes).
+4. Based on Relationship
+Entity-Relationship (ER) Model: Represents data as entities and relationships. Each entity is a distinct object, and relationships define how entities interact with each other (used in designing databases).
+Graph Database: Data is represented as nodes and edges, allowing for efficient modeling of relationships. It is particularly useful for applications like social networks (e.g., Neo4j).
+5. Based on Accessibility
+Centralized Database: All data is stored in a single location, and users access it through a central server. This simplifies management but can create bottlenecks.
+Decentralized Database: Data is distributed across multiple nodes or servers, allowing for better scalability and reliability. Each node can operate independently.
+6. Based on Schema
+Schema-less Database: Allows for a flexible structure where data can be stored without a predefined schema. This is typical in NoSQL databases, enabling developers to modify the structure as needed (e.g., MongoDB).
+Schema-based Database: Requires a defined schema before data can be inserted. This structure enforces data integrity and consistency (e.g., RDBMS).

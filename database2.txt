@@ -1,0 +1,29 @@
+File-Based Storage System
+A file-based storage system is a method of storing and managing data where information is stored in individual files, often within a hierarchical directory structure. Each file typically contains data related to a specific application or function, and users can access and manipulate these files directly using the operating system’s file management tools.
+
+Key Characteristics:
+Simplicity: File-based systems are straightforward to implement and understand, making them accessible for small-scale applications.
+Direct Access: Users can access files directly using file paths and perform basic operations like create, read, update, and delete (CRUD).
+Flexibility: Different file formats (e.g., text, CSV, JSON) can be used to store data, allowing for diverse applications.
+Major Challenges of a File-Based Storage System
+Data Redundancy and Inconsistency:
+
+When multiple files store similar data, changes made in one file may not be reflected in others, leading to inconsistencies and redundancy.
+Limited Data Access and Retrieval:
+
+Accessing specific data in a file may require reading through the entire file, making retrieval inefficient, especially for large datasets.
+Poor Data Security:
+
+File-based systems generally lack robust security features. Unauthorized users may easily access or modify files, increasing the risk of data breaches.
+Difficult Data Management:
+
+As the number of files increases, managing, organizing, and locating specific files becomes challenging, often leading to a cluttered and disorganized file system.
+Lack of Concurrency Control:
+
+When multiple users or processes attempt to access or modify the same file simultaneously, conflicts can arise, resulting in data corruption or loss.
+Scalability Issues:
+
+File-based systems may struggle to scale effectively as data volume grows, leading to performance degradation and longer access times.
+Backup and Recovery Complications:
+
+Implementing effective backup and recovery solutions can be complex, especially if files are scattered across different locations or formats.

@@ -1,0 +1,15 @@
+Data Redundancy and Inconsistency
+Challenge: In file-based systems, the same data can be stored in multiple files or locations. This redundancy can lead to inconsistencies when updates are made in one file but not in others, resulting in conflicting information.
+DBMS Solution: A DBMS centralizes data storage, ensuring that data is stored in one place. It enforces data integrity constraints, such as primary keys, which prevent duplication and help maintain consistency across the database.
+2. Limited Data Access and Retrieval
+Challenge: Accessing specific data in a file-based system often requires reading through the entire file, making data retrieval inefficient, especially with large datasets. This can slow down application performance and make it challenging to analyze data.
+DBMS Solution: DBMSs use structured query languages (like SQL) to enable efficient data access and retrieval. Users can perform complex queries to quickly obtain specific information without scanning entire datasets, significantly improving performance and usability.
+3. Poor Data Security
+Challenge: File-based systems typically lack robust security mechanisms. Sensitive data can be easily accessed or modified by unauthorized users, leading to data breaches and loss of confidentiality.
+DBMS Solution: A DBMS provides advanced security features, such as user authentication, role-based access control, and encryption. These measures help ensure that only authorized users can access or modify sensitive data, thereby enhancing data security.
+4. Lack of Concurrency Control
+Challenge: In a file-based system, multiple users accessing or modifying the same file simultaneously can lead to conflicts and data corruption. This makes it difficult to manage concurrent access in a reliable way.
+DBMS Solution: DBMSs include transaction management and concurrency control mechanisms that allow multiple users to interact with the database simultaneously without conflicts. Locking protocols and isolation levels ensure data integrity during concurrent operations.
+5. Backup and Recovery Complications
+Challenge: Implementing effective backup and recovery strategies in file-based systems can be complex and time-consuming. Data loss can occur due to system failures, corruption, or accidental deletions, and recovering data can be challenging.
+DBMS Solution: DBMSs typically offer built-in backup and recovery features that simplify data protection. They can create regular backups, allow point-in-time recovery, and provide transaction logs to help restore data to a consistent state after failures, ensuring data availability and resilience.
